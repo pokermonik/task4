@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Semgrep
         run: |
-          sudo pip install semgrep
+          sudo pip install semgrep --ignore-installed
 
       - name: Run Semgrep SAST
         run: |
